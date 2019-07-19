@@ -125,7 +125,7 @@ function webglAtlas(tilesPerTexture) {
       img.setAttribute("crossorigin", "anonymous")
       img.src = imgUrl;
       img.onerror = function(e) {
-          img.src = 'https://leader-id.ru/files/user_photo/noimage_200.jpg';
+          img.src = '/files/user_photo/noimage_200.jpg';
           // SORRY IM TOO TIRED
       };
 
